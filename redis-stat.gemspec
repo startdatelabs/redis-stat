@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.version       = RedisStat::VERSION
 
   gem.add_runtime_dependency "ansi256", '~> 0.2.5'
-  gem.add_runtime_dependency "redis", '~> 3.0.2'
+  gem.add_runtime_dependency "redis", '> 3.0.2'
   gem.add_runtime_dependency "tabularize", '~> 0.2.9'
   gem.add_runtime_dependency "insensitive_hash", '~> 0.3.0'
   gem.add_runtime_dependency "parallelize", '~> 0.4.0'
