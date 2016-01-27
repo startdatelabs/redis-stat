@@ -31,7 +31,7 @@ Gem::Specification.new do |gem|
   if RUBY_PLATFORM == 'java'
     gem.add_runtime_dependency "puma", '~> 2.3.2'
   else
-    gem.add_runtime_dependency "thin", '~> 1.5.0'
+    gem.add_runtime_dependency "thin", '~> 1.6.0'
     gem.add_runtime_dependency "daemons", '~> 1.1.9'
   end
 end
